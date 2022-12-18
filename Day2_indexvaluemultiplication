@@ -1,0 +1,9 @@
+s=list(map(int(input().split()))
+v=[]
+for i in s:
+    p=1
+    for j in s:
+        if i!=j:
+            p=p*j
+    v.append(p)
+print(v)
