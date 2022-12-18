@@ -1,0 +1,5 @@
+num=int(input())
+sum=1
+for i in range(num):
+    sum+=(5*i)
+print(sum)
