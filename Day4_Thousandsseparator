@@ -1,0 +1,4 @@
+v = int(input())
+def format_number(s):
+    print(f"{v:,d}") 
+format_number(v)
